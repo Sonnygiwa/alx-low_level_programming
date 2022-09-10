@@ -1,14 +1,13 @@
 #include <stdio.h>
+
 /**
  * main - C programming 
- *
- * Description:C program that prints the size of various types
+ * Description: C program that prints various sizes
  * Return: 0
  */
 int main(void)
 {
 
-	
 	printf("Size of a char: %i byte(s)\n", sizeof(char));
 	printf("Size of an int: %i byte(s)\n", sizeof(int));
 	printf("Size of a long int: %i byte(s)\n", sizeof(long int));
