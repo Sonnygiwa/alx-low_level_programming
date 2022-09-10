@@ -3,6 +3,8 @@
 /**
  * main - Printing the size of various types
  *
+ * Description details:
+ *
  * Return: 0
  */
 
