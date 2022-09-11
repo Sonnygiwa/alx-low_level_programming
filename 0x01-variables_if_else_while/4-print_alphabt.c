@@ -13,7 +13,8 @@ int main(void)
 
 	while (alphabet <= 'z')
 	{
-		if (alphabet == 'e' || alphabet == 'q') alphabet++;
+		if (alphabet == 'e' || alphabet == 'q') 
+			alphabet++;
 		putchar(alphabet);
 		alphabet++;
 	}
