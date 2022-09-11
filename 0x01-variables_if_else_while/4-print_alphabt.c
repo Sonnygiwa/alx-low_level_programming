@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry 
  *
  * Description: C program that  print all aplhabet letters except q and e
  * followed by a new line
