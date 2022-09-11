@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - 
+ * main - Main function 
  * Description: C program that print combination of all single-digit numbers
  * using putchar and followed by a new line
  * Return: 0
