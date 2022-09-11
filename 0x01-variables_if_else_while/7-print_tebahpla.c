@@ -13,7 +13,6 @@ int main(void)
 
 	letter = 'z';
 	newline = '\n';
-	
 	while (letter >= 'a')
 	{
 		putchar(letter);
