@@ -2,8 +2,8 @@
 
 /**
  * main - C programming 
- * Description: C program that prints various sizes
- * Return: 0
+ * Description:C program that prints various sizes
+ * Return: 0;
  */
 int main(void)
 {
