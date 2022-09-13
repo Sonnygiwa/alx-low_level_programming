@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * void - void 
+ * void - void
  * Description: C program function that prints
  * the alphabets in lowercase followed by new line
  *Return: 0
  */
-void print_alphabet(void)
+void print_alphabet(void) /* using void print_alphabet */
 {
 	char alphabet;
 
