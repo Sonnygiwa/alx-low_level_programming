@@ -7,19 +7,19 @@
  */
 void print_alphabet_x10(void)
 {
-	char alphabet;
-	int times;
+	char x;
+	int y;
 
-	times = 0;
-	while (times <= 9)
+	y = 0;
+	while (y <= 9)
 	{
-		alphabet = 'a';
-		while (alphabet <= 'z')
+		x = 'a';
+		while (x <= 'z')
 		{
-			_putchar(alphabet);
-			++alphabet;
+			_putchar(x);
+			++x;
 		}
 		_putchar(10);
-		++time;
+		++y;
 	}
 }
