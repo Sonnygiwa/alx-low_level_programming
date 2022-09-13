@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	char c[10] = "_putchar";
+	char c[] = "_putchar";
 	int times = 0;
-	while (times < 9)
 
+	while (times < 8)
 	{
 		_putchar(c[times]);
 		times++;
