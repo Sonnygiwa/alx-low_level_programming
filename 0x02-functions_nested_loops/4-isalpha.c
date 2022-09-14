@@ -10,7 +10,8 @@
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 122) || (c >= 'A' && c <= 90)) /* using the ANSCI code
-								*for 'z' and 'Z'*/
+								*for 'z' and 'Z'
+								*/
 		return (1);
 	return (0);
 }
