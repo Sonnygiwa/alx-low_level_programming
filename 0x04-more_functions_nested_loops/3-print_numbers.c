@@ -3,6 +3,7 @@
 /**
  * print_numbers - print numbers from 0-9
  * using _putchar twice
+ * @n - the variable
  * Return: 0
  */
 
