@@ -6,16 +6,15 @@
  * @n - the variable
  * Return: 0
  */
-
 void print_numbers(void)
 {
 	char n = '0';
 	
 	while (n <= '9')
 	{
-		putchar (n);
+		putchar(n);
 		n++;
 	}
-	putchar ('\n');
+	putchar('\n');
 	return;
 }
