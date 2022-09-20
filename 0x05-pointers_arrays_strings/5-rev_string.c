@@ -8,12 +8,17 @@
  * Return: void
  */
 
-int _strlen(char *s)
+void rev_string(char *s)
 {
-	int a = 0;
+	int a, b;
+	char st;
 
-	while (*(s + a) != '\0')
-		a++;
+	for (a = 0; s[l] != '\0'; ++a);
+	for (b = 0; b < a / 2; ++b)
+	{
+		st = s[b];
+		s[b] = s[a - 1 - b];
+		s[a - 1 - b] = st;
+	}
 
-	return (a);
 }
