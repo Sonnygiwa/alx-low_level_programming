@@ -6,15 +6,14 @@
  * @n - the variable
  * Return: 0
  */
+
 void print_numbers(void)
 {
-	int n = '0';
-	
-	while (n <= '9')
+	int c;
+
+	for (c = 48; c < 58; c++)
 	{
-		putchar(n);
-		n++;
+		putchar(c);
 	}
 	putchar('\n');
-	return;
 }

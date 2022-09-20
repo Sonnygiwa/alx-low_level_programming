@@ -10,17 +10,13 @@
 
 void print_most_numbers(void)
 {
-	char n = 0;
+	int c;
 
-	while (n <= 9)
+	for (c = 0; c < 10; c++)
 	{
-		if (n != 2 && n != 4)
-		{
-			putchar('0' + n);
-		}
-
-		n++;
+		if (c == 2 || c == 4)
+			continue;
+		putchar((c % 10) + '0');
 	}
 	putchar('\n');
-
 }
