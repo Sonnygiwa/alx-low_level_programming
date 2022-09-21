@@ -5,31 +5,18 @@
   * Return: 0 
   */
 
-int main(void)
+void print_square(int n)
 {
-	int z;
+	int i, j;
 
-	z = 1;
-	printf("%d", z);
-	for (z = 2; z <= 100; ++z)
+	for (i = 0; i < n; i++)
 	{
-		if (z % 3 == 0 && z % 15 != 0)
+		for (j = 0; j < n; j++)
 		{
-			printf("Fizz");
+			putchar(35);
 		}
-		else if (z % 5 == 0 && z % 15 != 0)
-		{
-			printf("Buzz");
-		}
-		else if (z % 15 == 0)
-		{
-			printf("FizzBuzz");
-		}
-		else
-		{
-			printf("%d", z);
-		}
+		if (i != n - 1)
+			putchar('\n');
 	}
-	printf("\n");
-	return (0);
+	putchar('\n');
 }
