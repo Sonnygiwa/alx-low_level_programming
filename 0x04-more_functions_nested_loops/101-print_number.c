@@ -8,20 +8,17 @@
 
 void print_number(int n)
 {
-	unsigned  int n1;
-	
+	unsigned int num = n;
+
+	/*checkding negative ineteger*/
 	if (n < 0)
 	{
-		n1 = -n;
 		putchar('-');
+		num = -num;
 	}
-	else
-	{
-		n1 = n;
-	}
-	if (n1 / 10)
-	{
-		print_number(n1 / 10);
-	}
-	putchar((n1 % 10) + '0');
+
+	if ((num / 10) > 0)
+		print_number(num / 10);
+
+	putchar((num % 10) + 48);
 }
