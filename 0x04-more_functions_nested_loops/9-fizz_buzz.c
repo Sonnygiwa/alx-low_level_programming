@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
-  * main - main function
-  * @void: no argument
-  * Return: 0 
+  * main - function main
+  * Description: Fizz Buzz Test
+  * @void: nothing
+  * Return: 0 Success
   */
 
 int main(void)
